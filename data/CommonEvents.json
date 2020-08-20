@@ -1,0 +1,8 @@
+[
+null,
+{"id":1,"list":[{"code":121,"indent":0,"parameters":[3,3,0]},{"code":122,"indent":0,"parameters":[11,11,0,0,0]},{"code":355,"indent":0,"parameters":["$gameVariables.setValue(4, \"Jesus\")"]},{"code":355,"indent":0,"parameters":["$gameSelfSwitches.setValue([3, 2, 'B'], false)"]},{"code":201,"indent":0,"parameters":[0,3,0,5,0,0]},{"code":0,"indent":0,"parameters":[]}],"name":"Load","switchId":4,"trigger":0},
+{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":230,"indent":0,"parameters":[60]},{"code":111,"indent":0,"parameters":[0,21,1]},{"code":121,"indent":1,"parameters":[25,25,1]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":25,"trigger":2}
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="user-scalable=no">
+        <link rel="icon" href="icon/icon.png" type="image/png">
+        <link rel="apple-touch-icon" href="icon/icon.png">
+        <link rel="stylesheet" type="text/css" href="fonts/gamefont.css">
+        <style>
+        .playing{
+          font: 0px GameFont;
+        }
+        .button {
+          font: 0px GameFont;
+        }
+        @media screen and (min-height: 910px) {
+        .playing{
+          font: 24px GameFont;
+          color: white;
+          margin-left: 18px
+        }
+        .button {
+          text-decoration: none;
+          font: 18px GameFont;
+          padding-left: 10px;
+          color: #A0A0A0
+        }
+
+        .button:hover {
+          background-color: #6D86B1
+        }
+
+        .divisão {
+          display: grid;
+          align-items: center;
+          justify-content: space-evenly;
+          margin-top: 20px;
+        }
+        }
+
+        }
+        </style>
+        <title>Fired!(ENG)</title>
+    </head>
+    <body style="background-color: #36393e">
+      <div class="divisão">
+        <div>
+        <a href="/" class="button">Voltar...</a>
+        </div>
+        <h1 class="playing">FIRED!</h1>
+      </div>
+      <div>
+        <script type="text/javascript" src="js/libs/pixi.js"></script>
+        <script type="text/javascript" src="js/libs/pixi-tilemap.js"></script>
+        <script type="text/javascript" src="js/libs/pixi-picture.js"></script>
+        <script type="text/javascript" src="js/libs/fpsmeter.js"></script>
+        <script type="text/javascript" src="js/libs/lz-string.js"></script>
+        <script type="text/javascript" src="js/libs/iphone-inline-video.browser.js"></script>
+        <script type="text/javascript" src="js/rpg_core.js"></script>
+        <script type="text/javascript" src="js/rpg_managers.js"></script>
+        <script type="text/javascript" src="js/rpg_objects.js"></script>
+        <script type="text/javascript" src="js/rpg_scenes.js"></script>
+        <script type="text/javascript" src="js/rpg_sprites.js"></script>
+        <script type="text/javascript" src="js/rpg_windows.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </div>
+    </body>
+</html>
